@@ -1,4 +1,5 @@
-on:
+on: jobs:
+  
   schedule:
     - cron: '0 8 * * *'      # ← Daily at 8 AM UTC
   workflow_dispatch:          # ← Manual trigger
